@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Alert, Pressable, ScrollView, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { CameraView, useCameraPermissions } from "../../modules/expo-camera";
+import {
+  BarcodeScanningResult,
+  CameraView,
+  useCameraPermissions,
+} from "../../modules/expo-camera";
 
 import { ThemedText } from "@/components/themed-text";
 import { ThemedView } from "@/components/themed-view";
@@ -35,6 +39,10 @@ export default function CameraTestScreen() {
 
   const handleCameraReady = () => {
     addLog("success", "カメラが準備完了しました");
+  };
+
+  const handleBarcodeScanned = (result: BarcodeScanningResult) => {
+    addLog("info", `QRコード検出: ${result.type} - ${result.data}`);
   };
 
   const toggleCamera = async () => {
@@ -112,6 +120,7 @@ export default function CameraTestScreen() {
               <CameraView
                 facing="back"
                 onCameraReady={handleCameraReady}
+                onBarcodeScanned={handleBarcodeScanned}
                 style={styles.camera}
               />
             ) : (
