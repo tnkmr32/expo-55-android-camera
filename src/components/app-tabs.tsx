@@ -30,14 +30,6 @@ export default function AppTabs() {
         />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="test-module">
-        <NativeTabs.Trigger.Label>Test</NativeTabs.Trigger.Label>
-        <NativeTabs.Trigger.Icon
-          src={require("@/assets/images/tabIcons/home.png")}
-          renderingMode="template"
-        />
-      </NativeTabs.Trigger>
-
       <NativeTabs.Trigger name="camera-test">
         <NativeTabs.Trigger.Label>Camera</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
