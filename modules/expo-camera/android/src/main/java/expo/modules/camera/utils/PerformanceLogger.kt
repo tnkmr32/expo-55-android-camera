@@ -140,8 +140,10 @@ class PerformanceLogger private constructor() {
      * 測定結果のサマリーをログ出力し、セッションをクリーンアップ
      * 
      * @param frameId フレームID
+     * @param detected バーコードが検出されたかどうか（trueの場合、ExpoCameraViewでさらに詳細ログが出力される）
+     * @param failed 解析が失敗したかどうか
      */
-    fun logSummary(frameId: Long) {
+    fun logSummary(frameId: Long, detected: Boolean = true, failed: Boolean = false) {
       if (!isEnabled) return
       
       sessions.remove(frameId)?.let { session ->
@@ -167,13 +169,23 @@ class PerformanceLogger private constructor() {
         
         val totalTime = if (session.resultProcessedAt != null) {
           (session.resultProcessedAt!! - captureTime) / 1_000_000
+        } else if (session.analysisEndAt != null) {
+          // 結果処理がない場合（検出なし/失敗時）は解析終了時点までの時間
+          (session.analysisEndAt!! - captureTime) / 1_000_000
         } else {
           null
         }
         
+        // 状態を示す文字列
+        val status = when {
+          failed -> "[FAILED]"
+          !detected -> "[NO DETECT]"
+          else -> "[DETECTED]"
+        }
+        
         // フォーマット済みのログを出力
         val logBuilder = StringBuilder()
-        logBuilder.append("[PERF] Frame #$frameId\n")
+        logBuilder.append("[PERF] Frame #$frameId $status\n")
         logBuilder.append("  Capture      : 0ms\n")
         
         if (conversionTime != null) {

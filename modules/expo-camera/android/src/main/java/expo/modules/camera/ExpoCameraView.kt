@@ -820,9 +820,9 @@ class ExpoCameraView(
         )
       )
       
-      // 結果処理の完了とサマリーログ出力
+      // 結果処理の完了とサマリーログ出力（検出成功）
       PerformanceLogger.recordResultProcessed(frameId)
-      PerformanceLogger.logSummary(frameId)
+      PerformanceLogger.logSummary(frameId, detected = true)
     }
   }
 

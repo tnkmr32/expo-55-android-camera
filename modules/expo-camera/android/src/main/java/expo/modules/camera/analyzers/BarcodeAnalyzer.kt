@@ -55,7 +55,10 @@ class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScanne
         .addOnSuccessListener { barcodes ->
           // 解析処理の終了を記録
           PerformanceLogger.recordAnalysisEnd(frameId)
+          
           if (barcodes.isEmpty()) {
+            // バーコードが検出されなかった場合もログを出力
+            PerformanceLogger.logSummary(frameId, detected = false)
             return@addOnSuccessListener
           }
           val barcode = barcodes.first()
@@ -86,6 +89,9 @@ class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScanne
           )
         }
         .addOnFailureListener {
+          // 解析失敗時もログを出力
+          PerformanceLogger.recordAnalysisEnd(frameId)
+          PerformanceLogger.logSummary(frameId, detected = false, failed = true)
           Log.d("SCANNER", it.cause?.message ?: "Barcode scanning failed")
         }
         .addOnCompleteListener {
