@@ -61,6 +61,7 @@ import expo.modules.camera.records.CameraRatio
 import expo.modules.camera.records.CameraType
 import expo.modules.camera.records.FlashMode
 import expo.modules.camera.records.FocusMode
+import expo.modules.camera.records.PerformanceSettings
 import expo.modules.camera.records.VideoQuality
 import expo.modules.camera.records.VideoStabilizationMode
 import expo.modules.camera.tasks.ResolveTakenPicture
@@ -70,6 +71,7 @@ import expo.modules.camera.utils.CameraUtils
 import expo.modules.camera.utils.FileSystemUtils
 import expo.modules.camera.utils.mapX
 import expo.modules.camera.utils.mapY
+import expo.modules.camera.utils.PerformanceLogger
 import expo.modules.core.errors.ModuleDestroyedException
 import expo.modules.interfaces.camera.CameraViewInterface
 import expo.modules.kotlin.AppContext
@@ -241,6 +243,13 @@ class ExpoCameraView(
 
   // Scanning-related properties
   private var shouldScanBarcodes = false
+  
+  // Performance logging property (デフォルトで有効)
+  private var enablePerformanceLogging = true
+    set(value) {
+      field = value
+      PerformanceLogger.isEnabled = value
+    }
 
   override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
     measureChild(previewView, widthMeasureSpec, heightMeasureSpec)
@@ -682,6 +691,10 @@ class ExpoCameraView(
     barcodeFormats = settings?.barcodeTypes ?: emptyList()
   }
 
+  fun setPerformanceSettings(settings: PerformanceSettings?) {
+    enablePerformanceLogging = settings?.enablePerformanceLogging ?: false
+  }
+
   private fun transformBarcodeScannerResultToViewCoordinates(barcode: BarCodeScannerResult) {
     val cornerPoints = barcode.cornerPoints
     val previewWidth = previewView.width.toFloat()
@@ -785,6 +798,9 @@ class ExpoCameraView(
 
   private fun onBarcodeScanned(barcode: BarCodeScannerResult) {
     if (shouldScanBarcodes) {
+      // 結果処理の開始時刻を記録
+      val frameId = barcode.timestamp
+      
       transformBarcodeScannerResultToViewCoordinates(barcode)
 
       val (cornerPoints, boundingBox) = getCornerPointsAndBoundingBox(
@@ -803,6 +819,10 @@ class ExpoCameraView(
           extra = barcode.extra
         )
       )
+      
+      // 結果処理の完了とサマリーログ出力
+      PerformanceLogger.recordResultProcessed(frameId)
+      PerformanceLogger.logSummary(frameId)
     }
   }
 
@@ -835,6 +855,9 @@ class ExpoCameraView(
         LayoutParams.MATCH_PARENT
       )
     )
+    
+    // パフォーマンス測定をデフォルトで有効化
+    PerformanceLogger.isEnabled = enablePerformanceLogging
   }
 
   fun onPictureSaved(response: Bundle) {

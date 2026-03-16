@@ -10,6 +10,7 @@ import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.common.InputImage
 import expo.modules.camera.records.BarcodeType
 import expo.modules.camera.utils.BarCodeScannerResult
+import expo.modules.camera.utils.PerformanceLogger
 
 @OptIn(ExperimentalGetImage::class)
 class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScannerResult) -> Unit) : ImageAnalysis.Analyzer {
@@ -27,11 +28,20 @@ class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScanne
   private var barcodeScanner = BarcodeScanning.getClient(barcodeScannerOptions)
 
   override fun analyze(imageProxy: ImageProxy) {
+    // フレームキャプチャの開始を記録
+    val frameId = imageProxy.imageInfo.timestamp
+    PerformanceLogger.startFrameCapture(frameId)
+    
     val mediaImage = imageProxy.image
 
     if (mediaImage != null) {
       val rotationDegrees = imageProxy.imageInfo.rotationDegrees
+      
+      // 変換処理の開始を記録
+      PerformanceLogger.recordConversionStart(frameId)
       val image = InputImage.fromMediaImage(mediaImage, rotationDegrees)
+      // 変換処理の終了を記録
+      PerformanceLogger.recordConversionEnd(frameId)
 
       // MLKit returns coordinates in the upright (rotated) coordinate space,
       // so we need the post-rotation dimensions for correct scaling.
@@ -39,8 +49,12 @@ class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScanne
       val effectiveWidth = if (isRotated) imageProxy.height else imageProxy.width
       val effectiveHeight = if (isRotated) imageProxy.width else imageProxy.height
 
+      // 解析処理の開始を記録
+      PerformanceLogger.recordAnalysisStart(frameId)
       barcodeScanner.process(image)
         .addOnSuccessListener { barcodes ->
+          // 解析処理の終了を記録
+          PerformanceLogger.recordAnalysisEnd(frameId)
           if (barcodes.isEmpty()) {
             return@addOnSuccessListener
           }
@@ -66,7 +80,8 @@ class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScanne
               extra,
               cornerPoints,
               effectiveHeight,
-              effectiveWidth
+              effectiveWidth,
+              frameId  // タイムスタンプを追加
             )
           )
         }

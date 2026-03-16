@@ -140,3 +140,12 @@ enum class BarcodeType(private val value: String) : Enumerable {
     }
   }
 }
+
+/**
+ * パフォーマンス測定の設定を表すRecord
+ * 
+ * @property enablePerformanceLogging パフォーマンス測定を有効にするかどうか
+ */
+data class PerformanceSettings(
+  @Field val enablePerformanceLogging: Boolean = false
+) : Record

@@ -9,7 +9,8 @@ class BarCodeScannerResult(
   val extra: Bundle,
   var cornerPoints: MutableList<Int>,
   var height: Int,
-  var width: Int
+  var width: Int,
+  val timestamp: Long = 0L  // フレームのタイムスタンプ（パフォーマンス測定用）
 ) {
   data class BoundingBox(val x: Int, val y: Int, val width: Int, val height: Int)
 

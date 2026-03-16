@@ -17,6 +17,7 @@ import expo.modules.camera.records.CameraRatio
 import expo.modules.camera.records.CameraType
 import expo.modules.camera.records.FlashMode
 import expo.modules.camera.records.FocusMode
+import expo.modules.camera.records.PerformanceSettings
 import expo.modules.camera.records.VideoQuality
 import expo.modules.camera.records.VideoStabilizationMode
 import expo.modules.camera.tasks.ResolveTakenPicture
@@ -423,6 +424,15 @@ class CameraViewModule : Module() {
           if (view.videoEncodingBitrate != null) {
             view.videoEncodingBitrate = null
           }
+        }
+      }
+
+      Prop("performanceSettings") { view, settings: PerformanceSettings? ->
+        settings?.let {
+          view.setPerformanceSettings(it)
+        } ?: run {
+          // デフォルトで有効化
+          view.setPerformanceSettings(PerformanceSettings(enablePerformanceLogging = true))
         }
       }
 
