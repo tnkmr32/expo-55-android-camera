@@ -62,8 +62,13 @@ class CameraManager(private val context: Context) {
           preview = Preview.Builder()
             .build()
             .also { previewUseCase ->
+              Log.d(TAG, "Preview UseCase created, setting surface provider")
+              Log.d(TAG, "PreviewView details: width=${previewView.width}, height=${previewView.height}, surfaceProvider=${previewView.surfaceProvider}")
+              
               // プレビューのSurfaceProviderを設定
               previewUseCase.setSurfaceProvider(previewView.surfaceProvider)
+              
+              Log.d(TAG, "Surface provider set successfully")
             }
           Log.d(TAG, "Preview created and surface provider set")
 
@@ -80,6 +85,45 @@ class CameraManager(private val context: Context) {
             )
             
             Log.d(TAG, "Camera bound to lifecycle successfully")
+            
+            // カメラ情報をログ出力
+            camera?.let { cam ->
+              val cameraInfo = cam.cameraInfo
+              Log.d(TAG, "Camera details: hasFlashUnit=${cameraInfo.hasFlashUnit()}, sensorRotation=${cameraInfo.sensorRotationDegrees}")
+              Log.d(TAG, "Camera state: ${cameraInfo.cameraState.value}")
+              
+              // カメラ状態の変化を監視
+              cameraInfo.cameraState.observe(lifecycleOwner) { state ->
+                Log.d(TAG, "Camera state changed: type=${state.type}, error=${state.error}")
+                
+                when (state.type) {
+                  androidx.camera.core.CameraState.Type.PENDING_OPEN -> {
+                    Log.d(TAG, "Camera is PENDING_OPEN")
+                  }
+                  androidx.camera.core.CameraState.Type.OPENING -> {
+                    Log.d(TAG, "Camera is OPENING")
+                  }
+                  androidx.camera.core.CameraState.Type.OPEN -> {
+                    Log.d(TAG, "Camera is OPEN - preview should be visible now")
+                  }
+                  androidx.camera.core.CameraState.Type.CLOSING -> {
+                    Log.d(TAG, "Camera is CLOSING")
+                  }
+                  androidx.camera.core.CameraState.Type.CLOSED -> {
+                    Log.d(TAG, "Camera is CLOSED")
+                    if (state.error != null) {
+                      Log.e(TAG, "Camera closed with error: ${state.error}")
+                    }
+                  }
+                }
+              }
+            } ?: Log.w(TAG, "Camera object is null after binding")
+            
+            // Preview状態をログ出力
+            preview?.let { prev ->
+              Log.d(TAG, "Preview details: resolutionInfo=${prev.resolutionInfo}")
+            }
+            
             onSuccess()
             
           } catch (e: Exception) {

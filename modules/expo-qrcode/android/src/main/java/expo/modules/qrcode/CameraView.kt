@@ -47,11 +47,19 @@ class CameraView(context: Context, appContext: AppContext) : ExpoView(context, a
       )
       // プレビューのスケールタイプを設定（親ビューを埋める）
       scaleType = PreviewView.ScaleType.FILL_CENTER
-      // ハードウェアアクセラレーションを使用
-      implementationMode = PreviewView.ImplementationMode.COMPATIBLE
+      // PERFORMANCE モードを使用（SurfaceViewベース）でSurface準備を高速化
+      implementationMode = PreviewView.ImplementationMode.PERFORMANCE
+      
+      Log.d(TAG, "PreviewView created: scaleType=${scaleType}, implementationMode=${implementationMode}")
     }
     
     addView(previewView)
+    
+    // PreviewViewがレイアウト後にサイズを確認
+    previewView.post {
+      Log.d(TAG, "PreviewView size: width=${previewView.width}, height=${previewView.height}")
+      Log.d(TAG, "PreviewView visibility: ${previewView.visibility}, isAttachedToWindow=${previewView.isAttachedToWindow}")
+    }
     
     // CameraManagerを初期化
     cameraManager = CameraManager(context)
@@ -173,6 +181,38 @@ class CameraView(context: Context, appContext: AppContext) : ExpoView(context, a
     }
 
     Log.d(TAG, "Binding camera to lifecycle")
+    Log.d(TAG, "PreviewView before bind: width=${previewView.width}, height=${previewView.height}, visibility=${previewView.visibility}")
+    
+    // 注: PreviewViewの内部View(TextureView/SurfaceView)は、setSurfaceProvider()が呼ばれた後に作成される
+    // そのため、レイアウト完了後、すぐにカメラをバインドする
+    
+    if (previewView.width > 0 && previewView.height > 0) {
+      // 既にレイアウト済み - カメラをバインド
+      Log.d(TAG, "PreviewView already laid out, binding camera")
+      bindCameraToPreview(lifecycleOwner)
+    } else {
+      // レイアウト完了を待つ
+      Log.d(TAG, "Waiting for PreviewView layout...")
+      previewView.post {
+        if (previewView.width > 0 && previewView.height > 0) {
+          Log.d(TAG, "PreviewView layout completed: ${previewView.width}x${previewView.height}")
+          bindCameraToPreview(lifecycleOwner)
+        } else {
+          Log.e(TAG, "PreviewView has zero size after layout")
+          sendErrorEvent(
+            CameraErrorCode.CAMERA_ERROR,
+            "PreviewView layout failed: size is 0x0"
+          )
+        }
+      }
+    }
+  }
+
+  /**
+   * カメラをPreviewViewにバインド
+   */
+  private fun bindCameraToPreview(lifecycleOwner: LifecycleOwner) {
+    Log.d(TAG, "bindCameraToPreview() called")
     
     // カメラをバインド
     cameraManager.bindCamera(
@@ -180,6 +220,7 @@ class CameraView(context: Context, appContext: AppContext) : ExpoView(context, a
       previewView = previewView,
       onSuccess = {
         Log.d(TAG, "Camera started successfully")
+        Log.d(TAG, "PreviewView after bind: width=${previewView.width}, height=${previewView.height}")
         isCameraReady = true
         onCameraReady(mapOf())
       },
