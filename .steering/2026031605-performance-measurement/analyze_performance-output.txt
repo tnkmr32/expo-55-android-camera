@@ -1,0 +1,85 @@
+=== Camera Performance Analysis ===
+Log file: .steering/2026031605-performance-measurement/android-log.txt
+
+Last timestamp: 17:32:59.918 (63179.918s)
+Cutoff time: 63164.918s (excluding last 15 seconds)
+
+--- Frame Count ---
+Total frames (analyzed): 157
+Excluded frames (last 15s): 14
+  Detected  : 11 (7.0%)
+  No Detect : 146 (93.0%)
+  Failed    : 0 (0.0%)
+
+--- Overall Statistics ---
+  Conversion: No data
+
+  Analysis (n=157):
+    Min: 1ms, Max: 2159ms, Avg: 96.0ms
+    p50: 15ms, p95: 898ms, p99: 1029ms
+
+  Result (n=11):
+    Min: 0ms, Max: 1ms, Avg: 0.2ms
+    p50: 0ms, p95: 1ms, p99: 1ms
+
+  Total (n=158):
+    Min: 1ms, Max: 2159ms, Avg: 95.6ms
+    p50: 15ms, p95: 898ms, p99: 1029ms
+
+--- Analysis by Status ---
+  Analysis (DETECTED) (n=11):
+    Min: 15ms, Max: 989ms, Avg: 106.7ms
+    p50: 15ms, p95: 989ms, p99: 989ms
+
+  Analysis (NO DETECT) (n=146):
+    Min: 1ms, Max: 2159ms, Avg: 95.1ms
+    p50: 15ms, p95: 729ms, p99: 1029ms
+
+=== Detailed Statistics (excluding last 15s) ===
+
+--- Conversion Time Distribution ---
+   Count  Time(ms)
+   -----  --------
+     157  0
+
+--- Analysis Time Distribution (Top 10) ---
+   Count  Time(ms)
+   -----  --------
+      20  15
+      11  2
+      10  14
+       8  13
+       8  12
+       8  10
+       7  11
+       5  3
+       5  18
+       5  17
+
+--- Total Time Distribution (Top 10) ---
+   Count  Time(ms)
+   -----  --------
+      16  15
+      12  2
+      10  16
+       9  14
+       8  12
+       8  11
+       7  18
+       7  13
+       7  10
+       5  3
+
+--- Slowest 10 Frames ---
+ Rank  Time(ms)
+ ----  --------
+    1  2159
+    2  1029
+    3  1001
+    4  994
+    5  990
+    6  986
+    7  903
+    8  898
+    9  729
+   10  585

@@ -1,0 +1,1028 @@
+03-16 17:31:10.151  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.151  8647  8647 D CameraPerf:   Total        : 19ms
+03-16 17:31:10.162  8647  8647 D CameraPerf: [PERF] Frame #8816895898244 [NO DETECT]
+03-16 17:31:10.162  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:10.162  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:10.162  8647  8647 D CameraPerf:   Analysis     : 11ms
+03-16 17:31:10.162  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.162  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:10.206  8647  8647 D CameraPerf: [PERF] Frame #8816944796286 [NO DETECT]
+03-16 17:31:10.206  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:10.206  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:10.206  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:10.206  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.206  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:10.255  8647  8647 D CameraPerf: [PERF] Frame #8816978129619 [NO DETECT]
+03-16 17:31:10.255  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:10.255  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:10.255  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:10.255  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.255  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:31:10.271  8647  8647 D CameraPerf: [PERF] Frame #8817011462952 [NO DETECT]
+03-16 17:31:10.271  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:10.271  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:10.271  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:10.271  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.271  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:10.399  8647  8647 D CameraPerf: [PERF] Frame #8817109142952 [NO DETECT]
+03-16 17:31:10.399  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:10.399  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:10.399  8647  8647 D CameraPerf:   Analysis     : 24ms
+03-16 17:31:10.399  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.399  8647  8647 D CameraPerf:   Total        : 24ms
+03-16 17:31:10.471  8647  8647 D CameraPerf: [PERF] Frame #8817144935536 [NO DETECT]
+03-16 17:31:10.471  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:10.471  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:10.471  8647  8647 D CameraPerf:   Analysis     : 19ms
+03-16 17:31:10.471  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.471  8647  8647 D CameraPerf:   Total        : 19ms
+03-16 17:31:10.641  8647  8647 D CameraPerf: [PERF] Frame #8817178268869 [NO DETECT]
+03-16 17:31:10.641  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:10.641  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:10.641  8647  8647 D CameraPerf:   Analysis     : 21ms
+03-16 17:31:10.641  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:10.641  8647  8647 D CameraPerf:   Total        : 21ms
+03-16 17:31:11.903  8647  8647 D CameraPerf: [PERF] Frame #8817947705869 [NO DETECT]
+03-16 17:31:11.903  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:11.903  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:11.903  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:11.903  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:11.903  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:31:13.063  8647  8647 D CameraPerf: [PERF] Frame #8819170366870 [NO DETECT]
+03-16 17:31:13.063  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:13.063  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:13.063  8647  8647 D CameraPerf:   Analysis     : 345ms
+03-16 17:31:13.063  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:13.063  8647  8647 D CameraPerf:   Total        : 345ms
+03-16 17:31:13.086  8647  8647 D CameraPerf: [PERF] Frame #8819737922537 [NO DETECT]
+03-16 17:31:13.086  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:13.086  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:13.086  8647  8647 D CameraPerf:   Analysis     : 23ms
+03-16 17:31:13.086  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:13.086  8647  8647 D CameraPerf:   Total        : 23ms
+03-16 17:31:13.102  8647  8647 D CameraPerf: [PERF] Frame #8819808571162 [NO DETECT]
+03-16 17:31:13.102  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:13.102  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:13.102  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:13.102  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:13.102  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:19.263  8647  8647 D CameraPerf: [PERF] Frame #8825884998914 [NO DETECT]
+03-16 17:31:19.263  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:19.263  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:19.263  8647  8647 D CameraPerf:   Analysis     : 21ms
+03-16 17:31:19.263  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:19.263  8647  8647 D CameraPerf:   Total        : 21ms
+03-16 17:31:19.399  8647  8647 D CameraPerf: [PERF] Frame #8826010623623 [NO DETECT]
+03-16 17:31:19.399  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:19.399  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:19.399  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:31:19.399  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:19.399  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:31:20.238  8647  8647 D CameraPerf: [PERF] Frame #8826980368499 [NO DETECT]
+03-16 17:31:20.238  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:20.238  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:20.238  8647  8647 D CameraPerf:   Analysis     : 11ms
+03-16 17:31:20.238  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:20.238  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:21.249  8647  8647 D CameraPerf: [PERF] Frame #8827013701832 [NO DETECT]
+03-16 17:31:21.249  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:21.249  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:21.249  8647  8647 D CameraPerf:   Analysis     : 898ms
+03-16 17:31:21.249  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:21.249  8647  8647 D CameraPerf:   Total        : 898ms
+03-16 17:31:21.265  8647  8647 D CameraPerf: [PERF] Frame #8827992974541 [NO DETECT]
+03-16 17:31:21.265  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:21.265  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:21.265  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:21.265  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:21.265  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:21.355  8647  8647 D CameraPerf: [PERF] Frame #8828026307874 [NO DETECT]
+03-16 17:31:21.355  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:21.355  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:21.355  8647  8647 D CameraPerf:   Analysis     : 11ms
+03-16 17:31:21.355  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:21.355  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:22.259  8647  8647 D CameraPerf: [PERF] Frame #8828096895666 [NO DETECT]
+03-16 17:31:22.259  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:22.259  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:22.259  8647  8647 D CameraPerf:   Analysis     : 903ms
+03-16 17:31:22.259  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:22.259  8647  8647 D CameraPerf:   Total        : 903ms
+03-16 17:31:23.640  8647  8647 D CameraPerf: [PERF] Frame #8828618122291 [NO DETECT]
+03-16 17:31:23.640  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:23.640  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:23.640  8647  8647 D CameraPerf:   Analysis     : 986ms
+03-16 17:31:23.640  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:23.640  8647  8647 D CameraPerf:   Total        : 986ms
+03-16 17:31:23.652  8647  8647 D CameraPerf: [PERF] Frame #8829734333583 [NO DETECT]
+03-16 17:31:23.652  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:23.652  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:23.652  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:23.652  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:23.652  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:24.656  8647  8647 D CameraPerf: [PERF] Frame #8830689278542 [NO DETECT]
+03-16 17:31:24.656  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:24.656  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:24.656  8647  8647 D CameraPerf:   Analysis     : 729ms
+03-16 17:31:24.656  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:24.656  8647  8647 D CameraPerf:   Total        : 729ms
+03-16 17:31:25.224  8647  8647 D CameraPerf: [PERF] Frame #8831615307001 [NO DETECT]
+03-16 17:31:25.224  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:25.224  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:25.224  8647  8647 D CameraPerf:   Analysis     : 26ms
+03-16 17:31:25.224  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:25.224  8647  8647 D CameraPerf:   Total        : 27ms
+03-16 17:31:25.692  8647  8647 D CameraPerf: [PERF] Frame #8832231199293 [NO DETECT]
+03-16 17:31:25.692  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:25.692  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:25.692  8647  8647 D CameraPerf:   Analysis     : 48ms
+03-16 17:31:25.692  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:25.692  8647  8647 D CameraPerf:   Total        : 48ms
+03-16 17:31:26.661  8647  8647 D CameraPerf: [PERF] Frame #8832509895751 [NO DETECT]
+03-16 17:31:26.661  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.661  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.661  8647  8647 D CameraPerf:   Analysis     : 22ms
+03-16 17:31:26.661  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.661  8647  8647 D CameraPerf:   Total        : 22ms
+03-16 17:31:26.683  8647  8647 D CameraPerf: [PERF] Frame #8833406323252 [NO DETECT]
+03-16 17:31:26.683  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.683  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.683  8647  8647 D CameraPerf:   Analysis     : 20ms
+03-16 17:31:26.683  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.683  8647  8647 D CameraPerf:   Total        : 20ms
+03-16 17:31:26.715  8647  8647 D CameraPerf: [PERF] Frame #8833439656585 [NO DETECT]
+03-16 17:31:26.715  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.715  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.715  8647  8647 D CameraPerf:   Analysis     : 20ms
+03-16 17:31:26.715  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.715  8647  8647 D CameraPerf:   Total        : 20ms
+03-16 17:31:26.742  8647  8647 D CameraPerf: [PERF] Frame #8833472989918 [NO DETECT]
+03-16 17:31:26.742  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.742  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.742  8647  8647 D CameraPerf:   Analysis     : 18ms
+03-16 17:31:26.742  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.742  8647  8647 D CameraPerf:   Total        : 18ms
+03-16 17:31:26.771  8647  8647 D CameraPerf: [PERF] Frame #8833506323251 [NO DETECT]
+03-16 17:31:26.771  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.771  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.771  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:26.771  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.771  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:26.816  8647  8647 D CameraPerf: [PERF] Frame #8833539656584 [NO DETECT]
+03-16 17:31:26.816  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.816  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.816  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:26.816  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.816  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:26.855  8647  8647 D CameraPerf: [PERF] Frame #8833572989917 [NO DETECT]
+03-16 17:31:26.855  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.855  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.855  8647  8647 D CameraPerf:   Analysis     : 19ms
+03-16 17:31:26.855  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.855  8647  8647 D CameraPerf:   Total        : 19ms
+03-16 17:31:26.883  8647  8647 D CameraPerf: [PERF] Frame #8833608125710 [NO DETECT]
+03-16 17:31:26.883  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.883  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.883  8647  8647 D CameraPerf:   Analysis     : 19ms
+03-16 17:31:26.883  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.883  8647  8647 D CameraPerf:   Total        : 19ms
+03-16 17:31:26.906  8647  8647 D CameraPerf: [PERF] Frame #8833641459043 [NO DETECT]
+03-16 17:31:26.906  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.906  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.906  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:26.906  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.906  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:26.960  8647  8647 D CameraPerf: [PERF] Frame #8833674792376 [NO DETECT]
+03-16 17:31:26.960  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:26.960  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:26.960  8647  8647 D CameraPerf:   Analysis     : 16ms
+03-16 17:31:26.960  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:26.960  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:31:27.978  8647  8647 D CameraPerf: [PERF] Frame #8833712342669 [NO DETECT]
+03-16 17:31:27.978  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:27.978  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:27.978  8647  8647 D CameraPerf:   Analysis     : 1001ms
+03-16 17:31:27.978  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:27.978  8647  8647 D CameraPerf:   Total        : 1001ms
+03-16 17:31:27.991  8647  8647 D CameraPerf: [PERF] Frame #8834553011960 [NO DETECT]
+03-16 17:31:27.991  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:27.991  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:27.991  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:31:27.991  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:27.991  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:31:28.006  8647  8647 D CameraPerf: [PERF] Frame #8834745859586 [NO DETECT]
+03-16 17:31:28.006  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.006  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.006  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:31:28.006  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.006  8647  8647 D CameraPerf:   Total        : 13ms
+03-16 17:31:28.055  8647  8647 D CameraPerf: [PERF] Frame #8834779192919 [NO DETECT]
+03-16 17:31:28.055  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.055  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.055  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:28.055  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.055  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:28.087  8647  8647 D CameraPerf: [PERF] Frame #8834812526252 [NO DETECT]
+03-16 17:31:28.087  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.087  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.087  8647  8647 D CameraPerf:   Analysis     : 20ms
+03-16 17:31:28.087  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.087  8647  8647 D CameraPerf:   Total        : 20ms
+03-16 17:31:28.119  8647  8647 D CameraPerf: [PERF] Frame #8834845859585 [NO DETECT]
+03-16 17:31:28.119  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.119  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.119  8647  8647 D CameraPerf:   Analysis     : 16ms
+03-16 17:31:28.119  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.119  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:31:28.155  8647  8647 D CameraPerf: [PERF] Frame #8834879192918 [NO DETECT]
+03-16 17:31:28.155  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.155  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.155  8647  8647 D CameraPerf:   Analysis     : 24ms
+03-16 17:31:28.155  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.155  8647  8647 D CameraPerf:   Total        : 24ms
+03-16 17:31:28.190  8647  8647 D CameraPerf: [PERF] Frame #8834912526251 [NO DETECT]
+03-16 17:31:28.190  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.190  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.190  8647  8647 D CameraPerf:   Analysis     : 18ms
+03-16 17:31:28.190  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.190  8647  8647 D CameraPerf:   Total        : 18ms
+03-16 17:31:28.207  8647  8647 D CameraPerf: [PERF] Frame #8834945859584 [NO DETECT]
+03-16 17:31:28.207  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.207  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.207  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:31:28.207  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.207  8647  8647 D CameraPerf:   Total        : 13ms
+03-16 17:31:28.246  8647  8647 D CameraPerf: [PERF] Frame #8834979192917 [NO DETECT]
+03-16 17:31:28.246  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.246  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.246  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:28.246  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.246  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:28.292  8647  8647 D CameraPerf: [PERF] Frame #8835012526250 [NO DETECT]
+03-16 17:31:28.292  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.292  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.292  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:31:28.292  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.292  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:31:28.307  8647  8647 D CameraPerf: [PERF] Frame #8835045859583 [NO DETECT]
+03-16 17:31:28.307  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.307  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.307  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:31:28.307  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.307  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:31:28.903  8647  8647 D CameraPerf: [PERF] Frame #8835649482836 [NO DETECT]
+03-16 17:31:28.903  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:28.903  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:28.903  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:28.903  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:28.903  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:29.275  8647  8647 D CameraPerf: [PERF] Frame #8835945056295 [NO DETECT]
+03-16 17:31:29.275  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:29.275  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:29.275  8647  8647 D CameraPerf:   Analysis     : 22ms
+03-16 17:31:29.275  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:29.275  8647  8647 D CameraPerf:   Total        : 22ms
+03-16 17:31:29.655  8647  8647 D CameraPerf: [PERF] Frame #8836018046045 [NO DETECT]
+03-16 17:31:29.655  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:29.655  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:29.655  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:31:29.655  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:29.655  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:31:30.079  8647  8647 D CameraPerf: [PERF] Frame #8836827250462 [NO DETECT]
+03-16 17:31:30.079  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:30.079  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:30.079  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:31:30.079  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:30.079  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:31:30.127  8647  8647 D CameraPerf: [PERF] Frame #8836860583795 [NO DETECT]
+03-16 17:31:30.127  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:30.127  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:30.127  8647  8647 D CameraPerf:   Analysis     : 11ms
+03-16 17:31:30.127  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:30.127  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:30.594  8647  8647 D CameraPerf: [PERF] Frame #8836895655004 [NO DETECT]
+03-16 17:31:30.594  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:30.594  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:30.594  8647  8647 D CameraPerf:   Analysis     : 84ms
+03-16 17:31:30.594  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:30.594  8647  8647 D CameraPerf:   Total        : 84ms
+03-16 17:31:31.661  8647  8647 D CameraPerf: [PERF] Frame #8837591319004 [NO DETECT]
+03-16 17:31:31.661  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:31.661  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:31.661  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:31.661  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:31.661  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:31:32.451  8647  8647 D CameraPerf: [PERF] Frame #8838575784046 [NO DETECT]
+03-16 17:31:32.451  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:32.451  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:32.451  8647  8647 D CameraPerf:   Analysis     : 11ms
+03-16 17:31:32.451  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:32.451  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:32.466  8647  8647 D CameraPerf: [PERF] Frame #8839205039755 [NO DETECT]
+03-16 17:31:32.466  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:32.466  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:32.466  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:32.466  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:32.466  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:32.503  8647  8647 D CameraPerf: [PERF] Frame #8839238373088 [NO DETECT]
+03-16 17:31:32.503  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:32.503  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:32.503  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:32.503  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:32.503  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:33.162  8647  8647 D CameraPerf: [PERF] Frame #8839905455172 [NO DETECT]
+03-16 17:31:33.162  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:33.162  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:33.162  8647  8647 D CameraPerf:   Analysis     : 9ms
+03-16 17:31:33.162  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:33.162  8647  8647 D CameraPerf:   Total        : 9ms
+03-16 17:31:33.466  8647  8647 D CameraPerf: [PERF] Frame #8839938788505 [NO DETECT]
+03-16 17:31:33.466  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:33.466  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:33.466  8647  8647 D CameraPerf:   Analysis     : 22ms
+03-16 17:31:33.466  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:33.466  8647  8647 D CameraPerf:   Total        : 22ms
+03-16 17:31:33.599  8647  8647 D CameraPerf: [PERF] Frame #8840074677422 [NO DETECT]
+03-16 17:31:33.599  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:33.599  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:33.599  8647  8647 D CameraPerf:   Analysis     : 39ms
+03-16 17:31:33.599  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:33.599  8647  8647 D CameraPerf:   Total        : 39ms
+03-16 17:31:34.219  8647  8647 D CameraPerf: [PERF] Frame #8840829083755 [NO DETECT]
+03-16 17:31:34.219  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:34.219  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:34.219  8647  8647 D CameraPerf:   Analysis     : 132ms
+03-16 17:31:34.219  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:34.219  8647  8647 D CameraPerf:   Total        : 132ms
+03-16 17:31:34.235  8647  8647 D CameraPerf: [PERF] Frame #8840862417088 [NO DETECT]
+03-16 17:31:34.235  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:34.235  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:34.235  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:34.235  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:34.235  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:31:34.361  8647  8647 D CameraPerf: [PERF] Frame #8840895750421 [NO DETECT]
+03-16 17:31:34.361  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:34.361  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:34.361  8647  8647 D CameraPerf:   Analysis     : 34ms
+03-16 17:31:34.361  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:34.361  8647  8647 D CameraPerf:   Total        : 34ms
+03-16 17:31:36.156  8647  8647 D CameraPerf: [PERF] Frame #8842861640797 [NO DETECT]
+03-16 17:31:36.156  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:36.156  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:36.156  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:36.156  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:36.156  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:37.609  8647  8647 D CameraPerf: [PERF] Frame #8844016642632 [NO DETECT]
+03-16 17:31:37.609  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:37.609  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:37.609  8647  8647 D CameraPerf:   Analysis     : 29ms
+03-16 17:31:37.609  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:37.609  8647  8647 D CameraPerf:   Total        : 29ms
+03-16 17:31:37.627  8647  8647 D CameraPerf: [PERF] Frame #8844342456840 [NO DETECT]
+03-16 17:31:37.627  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:37.627  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:37.627  8647  8647 D CameraPerf:   Analysis     : 17ms
+03-16 17:31:37.627  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:37.627  8647  8647 D CameraPerf:   Total        : 18ms
+03-16 17:31:38.187  8647  8647 D CameraPerf: [PERF] Frame #8844444264882 [NO DETECT]
+03-16 17:31:38.187  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:38.187  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:38.187  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:38.187  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:38.187  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:31:39.654  8647  8647 D CameraPerf: [PERF] Frame #8846404893716 [NO DETECT]
+03-16 17:31:39.654  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:39.654  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:39.654  8647  8647 D CameraPerf:   Analysis     : 11ms
+03-16 17:31:39.654  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:39.654  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:39.690  8647  8647 D CameraPerf: [PERF] Frame #8846438227049 [NO DETECT]
+03-16 17:31:39.690  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:39.690  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:39.690  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:39.690  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:39.690  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:31:39.739  8647  8647 D CameraPerf: [PERF] Frame #8846471560382 [NO DETECT]
+03-16 17:31:39.739  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:39.739  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:39.739  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:31:39.739  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:39.739  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:31:39.792  8647  8647 D CameraPerf: [PERF] Frame #8846504893715 [NO DETECT]
+03-16 17:31:39.792  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:39.792  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:39.792  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:31:39.792  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:39.792  8647  8647 D CameraPerf:   Total        : 13ms
+03-16 17:31:39.803  8647  8647 D CameraPerf: [PERF] Frame #8846543464841 [NO DETECT]
+03-16 17:31:39.803  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:39.803  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:39.803  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:39.803  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:39.803  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:31:39.974  8647  8647 D CameraPerf: [PERF] Frame #8846602459633 [NO DETECT]
+03-16 17:31:39.974  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:39.974  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:39.974  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:39.974  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:39.974  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:42.671  8647  8647 D CameraPerf: [PERF] Frame #8849389098259 [NO DETECT]
+03-16 17:31:42.671  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:42.671  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:42.671  8647  8647 D CameraPerf:   Analysis     : 16ms
+03-16 17:31:42.671  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:42.671  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:31:43.654  8647  8647 D CameraPerf: [PERF] Frame #8849890241760 [NO DETECT]
+03-16 17:31:43.654  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:43.654  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:43.654  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:43.654  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:43.654  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:43.666  8647  8647 D CameraPerf: [PERF] Frame #8850408810718 [NO DETECT]
+03-16 17:31:43.666  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:43.666  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:43.666  8647  8647 D CameraPerf:   Analysis     : 11ms
+03-16 17:31:43.666  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:43.666  8647  8647 D CameraPerf:   Total        : 11ms
+03-16 17:31:45.281  8647  8647 D CameraPerf: [PERF] Frame #8851944968261 [NO DETECT]
+03-16 17:31:45.281  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:45.281  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:45.281  8647  8647 D CameraPerf:   Analysis     : 18ms
+03-16 17:31:45.281  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:45.281  8647  8647 D CameraPerf:   Total        : 18ms
+03-16 17:31:47.673  8647  8647 D CameraPerf: [PERF] Frame #8854422741429 [NO DETECT]
+03-16 17:31:47.673  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:47.673  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:47.673  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:47.673  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:47.673  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:31:47.710  8647  8647 D CameraPerf: [PERF] Frame #8854456074762 [NO DETECT]
+03-16 17:31:47.710  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:47.710  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:47.710  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:31:47.710  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:47.710  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:31:47.830  8647  8647 D CameraPerf: [PERF] Frame #8854489408095 [NO DETECT]
+03-16 17:31:47.830  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:47.830  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:47.830  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:31:47.830  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:47.830  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:48.658  8647  8647 D CameraPerf: [PERF] Frame #8854581862512 [NO DETECT]
+03-16 17:31:48.658  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:48.658  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:48.658  8647  8647 D CameraPerf:   Analysis     : 585ms
+03-16 17:31:48.658  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:48.658  8647  8647 D CameraPerf:   Total        : 585ms
+03-16 17:31:48.676  8647  8647 D CameraPerf: [PERF] Frame #8855405163137 [NO DETECT]
+03-16 17:31:48.676  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:48.676  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:48.676  8647  8647 D CameraPerf:   Analysis     : 17ms
+03-16 17:31:48.676  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:48.676  8647  8647 D CameraPerf:   Total        : 17ms
+03-16 17:31:48.742  8647  8647 D CameraPerf: [PERF] Frame #8855438496470 [NO DETECT]
+03-16 17:31:48.742  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:48.742  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:48.742  8647  8647 D CameraPerf:   Analysis     : 50ms
+03-16 17:31:48.742  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:48.742  8647  8647 D CameraPerf:   Total        : 50ms
+03-16 17:31:48.830  8647  8647 D CameraPerf: [PERF] Frame #8855494021554 [NO DETECT]
+03-16 17:31:48.830  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:48.830  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:48.830  8647  8647 D CameraPerf:   Analysis     : 46ms
+03-16 17:31:48.830  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:48.830  8647  8647 D CameraPerf:   Total        : 47ms
+03-16 17:31:49.274  8647  8647 D CameraPerf: [PERF] Frame #8855593397179 [NO DETECT]
+03-16 17:31:49.274  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:49.274  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:49.274  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:49.274  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:49.274  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:50.270  8647  8647 D CameraPerf: [PERF] Frame #8856097480679 [NO DETECT]
+03-16 17:31:50.270  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:50.270  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:50.270  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:31:50.270  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:50.270  8647  8647 D CameraPerf:   Total        : 13ms
+03-16 17:31:52.191  8647  8647 D CameraPerf: [PERF] Frame #8858849409347 [NO DETECT]
+03-16 17:31:52.191  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:52.191  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:52.191  8647  8647 D CameraPerf:   Analysis     : 96ms
+03-16 17:31:52.191  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:52.191  8647  8647 D CameraPerf:   Total        : 97ms
+03-16 17:31:52.656  8647  8647 D CameraPerf: [PERF] Frame #8858916076013 [NO DETECT]
+03-16 17:31:52.656  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:52.656  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:52.656  8647  8647 D CameraPerf:   Analysis     : 464ms
+03-16 17:31:52.656  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:52.656  8647  8647 D CameraPerf:   Total        : 464ms
+03-16 17:31:52.675  8647  8647 D CameraPerf: [PERF] Frame #8859352878552 [NO DETECT]
+03-16 17:31:52.675  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:52.675  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:52.675  8647  8647 D CameraPerf:   Analysis     : 18ms
+03-16 17:31:52.675  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:52.675  8647  8647 D CameraPerf:   Total        : 18ms
+03-16 17:31:52.690  8647  8647 D CameraPerf: [PERF] Frame #8859412376723 [NO DETECT]
+03-16 17:31:52.690  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:52.690  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:52.690  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:31:52.690  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:52.690  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:31:52.705  8647  8647 D CameraPerf: [PERF] Frame #8859445710056 [NO DETECT]
+03-16 17:31:52.705  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:52.705  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:52.705  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:31:52.705  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:52.705  8647  8647 D CameraPerf:   Total        : 13ms
+03-16 17:31:53.270  8647  8647 D CameraPerf: [PERF] Frame #8860016870640 [NO DETECT]
+03-16 17:31:53.270  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:53.270  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:53.270  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:31:53.270  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:53.270  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:31:53.351  8647  8647 D CameraPerf: [PERF] Frame #8860050203973 [NO DETECT]
+03-16 17:31:53.351  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:53.351  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:53.351  8647  8647 D CameraPerf:   Analysis     : 32ms
+03-16 17:31:53.351  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:53.351  8647  8647 D CameraPerf:   Total        : 32ms
+03-16 17:31:53.993  8647  8647 D CameraPerf: [PERF] Frame #8860083537306 [NO DETECT]
+03-16 17:31:53.993  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:53.993  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:53.993  8647  8647 D CameraPerf:   Analysis     : 432ms
+03-16 17:31:53.993  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:53.993  8647  8647 D CameraPerf:   Total        : 432ms
+03-16 17:31:54.011  8647  8647 D CameraPerf: [PERF] Frame #8860584303348 [NO DETECT]
+03-16 17:31:54.011  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:54.011  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:54.011  8647  8647 D CameraPerf:   Analysis     : 16ms
+03-16 17:31:54.011  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:54.011  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:31:57.263  8647  8647 D CameraPerf: [PERF] Frame #8860617636681 [NO DETECT]
+03-16 17:31:57.263  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:57.263  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:57.263  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:31:57.263  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:57.263  8647  8647 D CameraPerf:   Total        : 13ms
+03-16 17:31:59.095  8647  8647 D CameraPerf: [PERF] Frame #8865661757642 [NO DETECT]
+03-16 17:31:59.095  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:31:59.095  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:31:59.095  8647  8647 D CameraPerf:   Analysis     : 23ms
+03-16 17:31:59.095  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:31:59.095  8647  8647 D CameraPerf:   Total        : 23ms
+03-16 17:32:01.281  8647  8647 D CameraPerf: [PERF] Frame #8868022312018 [NO DETECT]
+03-16 17:32:01.281  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:01.281  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:01.281  8647  8647 D CameraPerf:   Analysis     : 17ms
+03-16 17:32:01.281  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:01.281  8647  8647 D CameraPerf:   Total        : 17ms
+03-16 17:32:01.356  8647  8647 D CameraPerf: [PERF] Frame #8868055645351 [NO DETECT]
+03-16 17:32:01.356  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:01.356  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:01.356  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:01.356  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:01.356  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:32:02.359  8647  8647 D CameraPerf: [PERF] Frame #8868678810477 [NO DETECT]
+03-16 17:32:02.359  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:02.359  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:02.359  8647  8647 D CameraPerf:   Analysis     : 26ms
+03-16 17:32:02.359  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:02.359  8647  8647 D CameraPerf:   Total        : 26ms
+03-16 17:32:02.717  8647  8647 D CameraPerf: [PERF] Frame #8869410056561 [NO DETECT]
+03-16 17:32:02.717  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:02.717  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:02.717  8647  8647 D CameraPerf:   Analysis     : 39ms
+03-16 17:32:02.717  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:02.717  8647  8647 D CameraPerf:   Total        : 40ms
+03-16 17:32:03.059  8647  8647 D CameraPerf: [PERF] Frame #8869491537727 [NO DETECT]
+03-16 17:32:03.059  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:03.059  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:03.059  8647  8647 D CameraPerf:   Analysis     : 14ms
+03-16 17:32:03.059  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:03.059  8647  8647 D CameraPerf:   Total        : 14ms
+03-16 17:32:05.510  8647  8647 D CameraPerf: [PERF] Frame #8869828699811 [NO DETECT]
+03-16 17:32:05.510  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:05.510  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:05.510  8647  8647 D CameraPerf:   Analysis     : 191ms
+03-16 17:32:05.510  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:05.510  8647  8647 D CameraPerf:   Total        : 191ms
+03-16 17:32:05.527  8647  8647 D CameraPerf: [PERF] Frame #8872253203437 [DETECTED]
+03-16 17:32:05.527  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:05.527  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:05.527  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:05.527  8647  8647 D CameraPerf:   Result       : 1ms
+03-16 17:32:05.527  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:32:05.547  8647  8647 D CameraPerf: [PERF] Frame #8872286536770 [DETECTED]
+03-16 17:32:05.547  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:05.547  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:05.547  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:05.547  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:05.547  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:32:06.948  8647  8647 D CameraPerf: [PERF] Frame #8872319870103 [DETECTED]
+03-16 17:32:06.948  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:06.948  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:06.948  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:06.948  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:06.948  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:32:07.040  8647  8647 D CameraPerf: [PERF] Frame #8873697098896 [NO DETECT]
+03-16 17:32:07.040  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:07.040  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:07.040  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:32:07.040  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:07.040  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:32:07.444  8647  8647 D CameraPerf: [PERF] Frame #8873793380896 [NO DETECT]
+03-16 17:32:07.444  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:07.444  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:07.444  8647  8647 D CameraPerf:   Analysis     : 403ms
+03-16 17:32:07.444  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:07.444  8647  8647 D CameraPerf:   Total        : 403ms
+03-16 17:32:07.481  8647  8647 D CameraPerf: [PERF] Frame #8873931812729 [NO DETECT]
+03-16 17:32:07.481  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:07.481  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:07.481  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:07.481  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:07.481  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:32:07.702  8647  8647 D CameraPerf: [PERF] Frame #8874200677771 [NO DETECT]
+03-16 17:32:07.702  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:07.702  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:07.702  8647  8647 D CameraPerf:   Analysis     : 42ms
+03-16 17:32:07.702  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:07.702  8647  8647 D CameraPerf:   Total        : 42ms
+03-16 17:32:09.205  8647  8647 D CameraPerf: [PERF] Frame #8874753186105 [NO DETECT]
+03-16 17:32:09.205  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:09.205  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:09.205  8647  8647 D CameraPerf:   Analysis     : 21ms
+03-16 17:32:09.205  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:09.205  8647  8647 D CameraPerf:   Total        : 21ms
+03-16 17:32:09.302  8647  8647 D CameraPerf: [PERF] Frame #8875903757897 [NO DETECT]
+03-16 17:32:09.302  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:09.302  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:09.302  8647  8647 D CameraPerf:   Analysis     : 36ms
+03-16 17:32:09.302  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:09.302  8647  8647 D CameraPerf:   Total        : 36ms
+03-16 17:32:11.566  8647  8647 D CameraPerf: [PERF] Frame #8876257586897 [NO DETECT]
+03-16 17:32:11.566  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:11.566  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:11.566  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:11.566  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:11.566  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:32:13.815  8647  8647 D CameraPerf: [PERF] Frame #8880203518856 [DETECTED]
+03-16 17:32:13.815  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:13.815  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:13.815  8647  8647 D CameraPerf:   Analysis     : 28ms
+03-16 17:32:13.815  8647  8647 D CameraPerf:   Result       : 1ms
+03-16 17:32:13.815  8647  8647 D CameraPerf:   Total        : 29ms
+03-16 17:32:17.303  8647  8647 D CameraPerf: [PERF] Frame #8884020749526 [DETECTED]
+03-16 17:32:17.303  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:17.303  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:17.303  8647  8647 D CameraPerf:   Analysis     : 27ms
+03-16 17:32:17.303  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:17.303  8647  8647 D CameraPerf:   Total        : 28ms
+03-16 17:32:17.338  8647  8647 D CameraPerf: [PERF] Frame #8884054082859 [DETECTED]
+03-16 17:32:17.338  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:17.338  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:17.338  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:17.338  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:17.338  8647  8647 D CameraPerf:   Total        : 15ms
+03-16 17:32:17.380  8647  8647 D CameraPerf: [PERF] Frame #8884092363318 [DETECTED]
+03-16 17:32:17.380  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:17.380  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:17.380  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:17.380  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:17.380  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:32:17.397  8647  8647 D CameraPerf: [PERF] Frame #8884125696651 [DETECTED]
+03-16 17:32:17.397  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:17.397  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:17.397  8647  8647 D CameraPerf:   Analysis     : 15ms
+03-16 17:32:17.397  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:17.397  8647  8647 D CameraPerf:   Total        : 16ms
+03-16 17:32:17.563  8647  8647 D CameraPerf: [PERF] Frame #8884159029984 [DETECTED]
+03-16 17:32:17.563  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:17.563  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:17.563  8647  8647 D CameraPerf:   Analysis     : 23ms
+03-16 17:32:17.563  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:17.563  8647  8647 D CameraPerf:   Total        : 24ms
+03-16 17:32:17.582  8647  8647 D CameraPerf: [PERF] Frame #8884304899568 [DETECTED]
+03-16 17:32:17.582  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:17.582  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:17.582  8647  8647 D CameraPerf:   Analysis     : 17ms
+03-16 17:32:17.582  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:17.582  8647  8647 D CameraPerf:   Total        : 18ms
+03-16 17:32:18.608  8647  8647 D CameraPerf: [PERF] Frame #8884338232901 [DETECTED]
+03-16 17:32:18.608  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:18.608  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:18.608  8647  8647 D CameraPerf:   Analysis     : 989ms
+03-16 17:32:18.608  8647  8647 D CameraPerf:   Result       : 0ms
+03-16 17:32:18.608  8647  8647 D CameraPerf:   Total        : 990ms
+03-16 17:32:18.633  8647  8647 D CameraPerf: [PERF] Frame #8885328836610 [NO DETECT]
+03-16 17:32:18.633  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:18.633  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:18.633  8647  8647 D CameraPerf:   Analysis     : 24ms
+03-16 17:32:18.633  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:18.633  8647  8647 D CameraPerf:   Total        : 24ms
+03-16 17:32:21.403  8647  8647 D CameraPerf: [PERF] Frame #8885362169943 [NO DETECT]
+03-16 17:32:21.403  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:21.403  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:21.403  8647  8647 D CameraPerf:   Analysis     : 2159ms
+03-16 17:32:21.403  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:21.403  8647  8647 D CameraPerf:   Total        : 2159ms
+03-16 17:32:21.420  8647  8647 D CameraPerf: [PERF] Frame #8888119184070 [NO DETECT]
+03-16 17:32:21.420  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:21.420  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:21.420  8647  8647 D CameraPerf:   Analysis     : 17ms
+03-16 17:32:21.420  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:21.420  8647  8647 D CameraPerf:   Total        : 17ms
+03-16 17:32:21.498  8647  8647 D CameraPerf: [PERF] Frame #8888152517403 [NO DETECT]
+03-16 17:32:21.498  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:21.498  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:21.498  8647  8647 D CameraPerf:   Analysis     : 46ms
+03-16 17:32:21.498  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:21.498  8647  8647 D CameraPerf:   Total        : 46ms
+03-16 17:32:22.640  8647  8647 D CameraPerf: [PERF] Frame #8888185850736 [NO DETECT]
+03-16 17:32:22.640  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:22.640  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:22.640  8647  8647 D CameraPerf:   Analysis     : 27ms
+03-16 17:32:22.640  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:22.640  8647  8647 D CameraPerf:   Total        : 27ms
+03-16 17:32:26.399  8647  8647 D CameraPerf: [PERF] Frame #8892056156697 [NO DETECT]
+03-16 17:32:26.399  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:26.399  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:26.399  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:26.399  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:26.399  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:27.669  8647  8647 D CameraPerf: [PERF] Frame #8893145014239 [NO DETECT]
+03-16 17:32:27.669  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:27.669  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:27.669  8647  8647 D CameraPerf:   Analysis     : 1029ms
+03-16 17:32:27.669  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:27.669  8647  8647 D CameraPerf:   Total        : 1029ms
+03-16 17:32:27.685  8647  8647 D CameraPerf: [PERF] Frame #8894436991239 [NO DETECT]
+03-16 17:32:27.685  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:27.685  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:27.685  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:27.685  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:27.685  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:29.257  8647  8647 D CameraPerf: [PERF] Frame #8894470324572 [NO DETECT]
+03-16 17:32:29.257  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:29.257  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:29.257  8647  8647 D CameraPerf:   Analysis     : 4ms
+03-16 17:32:29.257  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:29.257  8647  8647 D CameraPerf:   Total        : 4ms
+03-16 17:32:29.259  8647  8647 D CameraPerf: [PERF] Frame #8894955914115 [NO DETECT]
+03-16 17:32:29.259  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:29.259  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:29.259  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:29.259  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:29.259  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:29.261  8647  8647 D CameraPerf: [PERF] Frame #8896018277407 [NO DETECT]
+03-16 17:32:29.261  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:29.261  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:29.261  8647  8647 D CameraPerf:   Analysis     : 1ms
+03-16 17:32:29.261  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:29.261  8647  8647 D CameraPerf:   Total        : 1ms
+03-16 17:32:29.313  8647  8647 D CameraPerf: [PERF] Frame #8896051610740 [NO DETECT]
+03-16 17:32:29.313  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:29.313  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:29.313  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:29.313  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:29.313  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:31.164  8647  8647 D CameraPerf: [PERF] Frame #8896084944073 [NO DETECT]
+03-16 17:32:31.164  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:31.164  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:31.164  8647  8647 D CameraPerf:   Analysis     : 136ms
+03-16 17:32:31.164  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:31.164  8647  8647 D CameraPerf:   Total        : 136ms
+03-16 17:32:31.178  8647  8647 D CameraPerf: [PERF] Frame #8897894233490 [NO DETECT]
+03-16 17:32:31.178  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:31.178  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:31.178  8647  8647 D CameraPerf:   Analysis     : 13ms
+03-16 17:32:31.178  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:31.178  8647  8647 D CameraPerf:   Total        : 13ms
+03-16 17:32:31.370  8647  8647 D CameraPerf: [PERF] Frame #8897931058991 [NO DETECT]
+03-16 17:32:31.370  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:31.370  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:31.370  8647  8647 D CameraPerf:   Analysis     : 3ms
+03-16 17:32:31.370  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:31.370  8647  8647 D CameraPerf:   Total        : 3ms
+03-16 17:32:31.887  8647  8647 D CameraPerf: [PERF] Frame #8897964392324 [NO DETECT]
+03-16 17:32:31.887  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:31.887  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:31.887  8647  8647 D CameraPerf:   Analysis     : 7ms
+03-16 17:32:31.887  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:31.887  8647  8647 D CameraPerf:   Total        : 7ms
+03-16 17:32:31.965  8647  8647 D CameraPerf: [PERF] Frame #8898225100616 [NO DETECT]
+03-16 17:32:31.965  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:31.965  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:31.965  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:31.965  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:31.965  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:36.463  8647  8647 D CameraPerf: [PERF] Frame #8900015722159 [NO DETECT]
+03-16 17:32:36.463  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:36.463  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:36.463  8647  8647 D CameraPerf:   Analysis     : 3ms
+03-16 17:32:36.463  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:36.463  8647  8647 D CameraPerf:   Total        : 3ms
+03-16 17:32:37.255  8647  8647 D CameraPerf: [PERF] Frame #8903488389535 [NO DETECT]
+03-16 17:32:37.255  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:37.255  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:37.255  8647  8647 D CameraPerf:   Analysis     : 7ms
+03-16 17:32:37.255  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:37.255  8647  8647 D CameraPerf:   Total        : 7ms
+03-16 17:32:37.673  8647  8647 D CameraPerf: [PERF] Frame #8904013909494 [NO DETECT]
+03-16 17:32:37.673  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:37.673  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:37.673  8647  8647 D CameraPerf:   Analysis     : 5ms
+03-16 17:32:37.673  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:37.673  8647  8647 D CameraPerf:   Total        : 5ms
+03-16 17:32:37.807  8647  8647 D CameraPerf: [PERF] Frame #8904546341869 [NO DETECT]
+03-16 17:32:37.807  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:37.807  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:37.807  8647  8647 D CameraPerf:   Analysis     : 18ms
+03-16 17:32:37.807  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:37.807  8647  8647 D CameraPerf:   Total        : 18ms
+03-16 17:32:37.821  8647  8647 D CameraPerf: [PERF] Frame #8904579675202 [NO DETECT]
+03-16 17:32:37.821  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:37.821  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:37.821  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:37.821  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:37.821  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:37.853  8647  8647 D CameraPerf: [PERF] Frame #8904613008535 [NO DETECT]
+03-16 17:32:37.853  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:37.853  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:37.853  8647  8647 D CameraPerf:   Analysis     : 3ms
+03-16 17:32:37.853  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:37.853  8647  8647 D CameraPerf:   Total        : 3ms
+03-16 17:32:38.643  8647  8647 D CameraPerf: [PERF] Frame #8904646341868 [NO DETECT]
+03-16 17:32:38.643  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:38.643  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:38.643  8647  8647 D CameraPerf:   Analysis     : 387ms
+03-16 17:32:38.643  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:38.643  8647  8647 D CameraPerf:   Total        : 388ms
+03-16 17:32:39.639  8647  8647 D CameraPerf: [PERF] Frame #8905092928244 [NO DETECT]
+03-16 17:32:39.639  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:39.639  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:39.639  8647  8647 D CameraPerf:   Analysis     : 994ms
+03-16 17:32:39.639  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:39.639  8647  8647 D CameraPerf:   Total        : 994ms
+03-16 17:32:39.722  8647  8647 D CameraPerf: [PERF] Frame #8906454534828 [NO DETECT]
+03-16 17:32:39.722  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:39.722  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:39.722  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:39.722  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:39.722  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:39.737  8647  8647 D CameraPerf: [PERF] Frame #8906487868161 [NO DETECT]
+03-16 17:32:39.737  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:39.737  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:39.737  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:39.737  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:39.737  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:40.203  8647  8647 D CameraPerf: [PERF] Frame #8906899869995 [NO DETECT]
+03-16 17:32:40.203  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:40.203  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:40.203  8647  8647 D CameraPerf:   Analysis     : 19ms
+03-16 17:32:40.203  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:40.203  8647  8647 D CameraPerf:   Total        : 19ms
+03-16 17:32:41.273  8647  8647 D CameraPerf: [PERF] Frame #8908025216871 [NO DETECT]
+03-16 17:32:41.273  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:41.273  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:41.273  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:41.273  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:41.273  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:41.327  8647  8647 D CameraPerf: [PERF] Frame #8908058550204 [NO DETECT]
+03-16 17:32:41.327  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:41.327  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:41.327  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:41.327  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:41.327  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:42.548  8647  8647 D CameraPerf: [PERF] Frame #8908670796996 [NO DETECT]
+03-16 17:32:42.548  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.548  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.548  8647  8647 D CameraPerf:   Analysis     : 1ms
+03-16 17:32:42.548  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.548  8647  8647 D CameraPerf:   Total        : 1ms
+03-16 17:32:42.566  8647  8647 D CameraPerf: [PERF] Frame #8909324855705 [NO DETECT]
+03-16 17:32:42.566  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.566  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.566  8647  8647 D CameraPerf:   Analysis     : 1ms
+03-16 17:32:42.566  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.566  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:42.613  8647  8647 D CameraPerf: [PERF] Frame #8909358189038 [NO DETECT]
+03-16 17:32:42.613  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.613  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.613  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:42.613  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.613  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:42.655  8647  8647 D CameraPerf: [PERF] Frame #8909391522371 [NO DETECT]
+03-16 17:32:42.655  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.655  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.655  8647  8647 D CameraPerf:   Analysis     : 8ms
+03-16 17:32:42.655  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.655  8647  8647 D CameraPerf:   Total        : 8ms
+03-16 17:32:42.784  8647  8647 D CameraPerf: [PERF] Frame #8909424855704 [NO DETECT]
+03-16 17:32:42.784  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.784  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.784  8647  8647 D CameraPerf:   Analysis     : 21ms
+03-16 17:32:42.784  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.784  8647  8647 D CameraPerf:   Total        : 21ms
+03-16 17:32:42.793  8647  8647 D CameraPerf: [PERF] Frame #8909551532205 [NO DETECT]
+03-16 17:32:42.793  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.793  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.793  8647  8647 D CameraPerf:   Analysis     : 3ms
+03-16 17:32:42.793  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.793  8647  8647 D CameraPerf:   Total        : 3ms
+03-16 17:32:42.868  8647  8647 D CameraPerf: [PERF] Frame #8909584865538 [NO DETECT]
+03-16 17:32:42.868  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.868  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.868  8647  8647 D CameraPerf:   Analysis     : 4ms
+03-16 17:32:42.868  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.868  8647  8647 D CameraPerf:   Total        : 4ms
+03-16 17:32:42.872  8647  8647 D CameraPerf: [PERF] Frame #8909629130955 [NO DETECT]
+03-16 17:32:42.872  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:42.872  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:42.872  8647  8647 D CameraPerf:   Analysis     : 3ms
+03-16 17:32:42.872  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:42.872  8647  8647 D CameraPerf:   Total        : 3ms
+03-16 17:32:45.277  8647  8647 D CameraPerf: [PERF] Frame #8909662464288 [NO DETECT]
+03-16 17:32:45.277  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:45.277  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:45.277  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:45.277  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:45.277  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:45.299  8647  8647 D CameraPerf: [PERF] Frame #8912041426081 [NO DETECT]
+03-16 17:32:45.299  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:45.299  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:45.299  8647  8647 D CameraPerf:   Analysis     : 12ms
+03-16 17:32:45.299  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:45.299  8647  8647 D CameraPerf:   Total        : 12ms
+03-16 17:32:45.517  8647  8647 D CameraPerf: [PERF] Frame #8912141426080 [NO DETECT]
+03-16 17:32:45.517  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:45.517  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:45.517  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:32:45.517  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:45.517  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:32:49.323  8647  8647 D CameraPerf: [PERF] Frame #8916039219000 [NO DETECT]
+03-16 17:32:49.323  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:49.323  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:49.323  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:49.323  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:49.323  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:52.658  8647  8647 D CameraPerf: [PERF] Frame #8918352574876 [NO DETECT]
+03-16 17:32:52.658  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:52.658  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:52.658  8647  8647 D CameraPerf:   Analysis     : 10ms
+03-16 17:32:52.658  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:52.658  8647  8647 D CameraPerf:   Total        : 10ms
+03-16 17:32:54.059  8647  8647 D CameraPerf: [PERF] Frame #8920422229543 [NO DETECT]
+03-16 17:32:54.059  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:54.059  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:54.059  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:54.059  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:54.059  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:57.263  8647  8647 D CameraPerf: [PERF] Frame #8924016670003 [NO DETECT]
+03-16 17:32:57.263  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:57.263  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:57.263  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:57.263  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:57.263  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:57.354  8647  8647 D CameraPerf: [PERF] Frame #8924050003336 [NO DETECT]
+03-16 17:32:57.354  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:57.354  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:57.354  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:57.354  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:57.354  8647  8647 D CameraPerf:   Total        : 3ms
+03-16 17:32:59.619  8647  8647 D CameraPerf: [PERF] Frame #8924457032962 [NO DETECT]
+03-16 17:32:59.619  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:59.619  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:59.619  8647  8647 D CameraPerf:   Analysis     : 268ms
+03-16 17:32:59.619  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:59.619  8647  8647 D CameraPerf:   Total        : 268ms
+03-16 17:32:59.621  8647  8647 D CameraPerf: [PERF] Frame #8926372926880 [NO DETECT]
+03-16 17:32:59.621  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:59.621  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:59.621  8647  8647 D CameraPerf:   Analysis     : 2ms
+03-16 17:32:59.621  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:59.621  8647  8647 D CameraPerf:   Total        : 2ms
+03-16 17:32:59.658  8647  8647 D CameraPerf: [PERF] Frame #8926406260213 [NO DETECT]
+03-16 17:32:59.658  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:59.658  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:59.658  8647  8647 D CameraPerf:   Analysis     : 3ms
+03-16 17:32:59.658  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:59.658  8647  8647 D CameraPerf:   Total        : 3ms
+03-16 17:32:59.687  8647  8647 D CameraPerf: [PERF] Frame #8926439593546 [NO DETECT]
+03-16 17:32:59.687  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:59.687  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:59.687  8647  8647 D CameraPerf:   Analysis     : 3ms
+03-16 17:32:59.687  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:59.687  8647  8647 D CameraPerf:   Total        : 4ms
+03-16 17:32:59.911  8647  8647 D CameraPerf: [PERF] Frame #8926472926879 [NO DETECT]
+03-16 17:32:59.911  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:59.911  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:59.911  8647  8647 D CameraPerf:   Analysis     : 172ms
+03-16 17:32:59.911  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:59.911  8647  8647 D CameraPerf:   Total        : 172ms
+03-16 17:32:59.918  8647  8647 D CameraPerf: [PERF] Frame #8926608702087 [NO DETECT]
+03-16 17:32:59.918  8647  8647 D CameraPerf:   Capture      : 0ms
+03-16 17:32:59.918  8647  8647 D CameraPerf:   Conversion   : 0ms
+03-16 17:32:59.918  8647  8647 D CameraPerf:   Analysis     : 5ms
+03-16 17:32:59.918  8647  8647 D CameraPerf:   Result       : N/A
+03-16 17:32:59.918  8647  8647 D CameraPerf:   Total        : 6ms
