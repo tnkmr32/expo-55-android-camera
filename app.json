@@ -9,7 +9,10 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon",
-      "bundleIdentifier": "com.anonymous.expo55androidcamera"
+      "bundleIdentifier": "com.anonymous.expo55androidcamera",
+      "infoPlist": {
+        "NSCameraUsageDescription": "このアプリはQRコードのスキャンにカメラを使用します。"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +22,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.expo55androidcamera"
+      "package": "com.anonymous.expo55androidcamera",
+      "permissions": ["android.permission.CAMERA"]
     },
     "web": {
       "output": "static",
