@@ -121,6 +121,9 @@ export default function CameraTestScreen() {
                 facing="back"
                 onCameraReady={handleCameraReady}
                 onBarcodeScanned={handleBarcodeScanned}
+                barcodeScannerSettings={{
+                  barcodeTypes: ["qr"],
+                }}
                 style={styles.camera}
               />
             ) : (
