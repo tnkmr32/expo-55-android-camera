@@ -1,3 +1,4 @@
+import { CameraView, useCameraPermissions } from "expo-camera";
 import { useState } from "react";
 import { Alert, Pressable, ScrollView, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -5,9 +6,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { ThemedText } from "@/components/themed-text";
 import { ThemedView } from "@/components/themed-view";
 import { Spacing } from "@/constants/theme";
-
-import CameraView from "@/../modules/expo-qrcode/src/CameraView";
-import type { CameraError } from "@/../modules/expo-qrcode/src/types";
 
 type LogEntry = {
   type: "info" | "success" | "error" | "warning";
@@ -18,6 +16,7 @@ type LogEntry = {
 export default function CameraTestScreen() {
   const [cameraEnabled, setCameraEnabled] = useState(false);
   const [logs, setLogs] = useState<LogEntry[]>([]);
+  const [permission, requestPermission] = useCameraPermissions();
 
   const addLog = (
     type: "info" | "success" | "error" | "warning",
@@ -38,26 +37,34 @@ export default function CameraTestScreen() {
     addLog("success", "カメラが準備完了しました");
   };
 
-  const handleCameraError = (event: { nativeEvent: CameraError }) => {
-    const { code, message } = event.nativeEvent;
-    addLog("error", `カメラエラー [${code}]: ${message}`);
-    Alert.alert("カメラエラー", message);
-  };
+  const toggleCamera = async () => {
+    if (!cameraEnabled) {
+      // カメラを有効化する前にパーミッションを確認
+      if (!permission) {
+        addLog("info", "パーミッション情報を読み込んでいます...");
+        return;
+      }
 
-  const handlePermissionDenied = () => {
-    addLog("warning", "カメラパーミッションが拒否されました");
-    // パーミッションが拒否された場合、カメラを無効化して再度要求しないようにする
-    setCameraEnabled(false);
-    Alert.alert(
-      "パーミッション必要",
-      "カメラを使用するにはカメラパーミッションを許可してください。",
-    );
-  };
+      if (!permission.granted) {
+        addLog("info", "カメラパーミッションを要求しています...");
+        const result = await requestPermission();
+        if (!result.granted) {
+          addLog("warning", "カメラパーミッションが拒否されました");
+          Alert.alert(
+            "パーミッション必要",
+            "カメラを使用するにはカメラパーミッションを許可してください。",
+          );
+          return;
+        }
+        addLog("success", "カメラパーミッションが許可されました");
+      }
 
-  const toggleCamera = () => {
-    const newState = !cameraEnabled;
-    setCameraEnabled(newState);
-    addLog("info", `カメラを${newState ? "有効" : "無効"}にしました`);
+      setCameraEnabled(true);
+      addLog("info", "カメラを有効にしました");
+    } else {
+      setCameraEnabled(false);
+      addLog("info", "カメラを無効にしました");
+    }
   };
 
   const clearLogs = () => {
@@ -103,10 +110,8 @@ export default function CameraTestScreen() {
           <ThemedView type="backgroundElement" style={styles.cameraContainer}>
             {cameraEnabled ? (
               <CameraView
-                enabled={cameraEnabled}
+                facing="back"
                 onCameraReady={handleCameraReady}
-                onCameraError={handleCameraError}
-                onPermissionDenied={handlePermissionDenied}
                 style={styles.camera}
               />
             ) : (
