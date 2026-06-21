@@ -8,6 +8,7 @@ import androidx.camera.core.ImageProxy
 import com.google.mlkit.vision.barcode.BarcodeScannerOptions
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.common.InputImage
+import com.google.mlkit.vision.barcode.common.Barcode
 import expo.modules.camera.records.BarcodeType
 import expo.modules.camera.utils.BarCodeScannerResult
 import expo.modules.camera.utils.PerformanceLogger
@@ -56,37 +57,7 @@ class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScanne
           // 解析処理の終了を記録
           PerformanceLogger.recordAnalysisEnd(frameId)
           
-          if (barcodes.isEmpty()) {
-            // バーコードが検出されなかった場合もログを出力
-            PerformanceLogger.logSummary(frameId, detected = false)
-            return@addOnSuccessListener
-          }
-          val barcode = barcodes.first()
-          val raw = barcode.rawValue ?: barcode.rawBytes?.let { String(it) }
-
-          val cornerPoints = barcode.cornerPoints?.let { points ->
-            // Pre-allocate array
-            IntArray(points.size * 2).apply {
-              points.forEachIndexed { index, point ->
-                this[index * 2] = point.x
-                this[index * 2 + 1] = point.y
-              }
-            }.toMutableList()
-          } ?: mutableListOf()
-
-          val extra = BarCodeScannerResultSerializer.parseExtraDate(barcode)
-          onComplete(
-            BarCodeScannerResult(
-              barcode.format,
-              barcode.displayValue,
-              raw,
-              extra,
-              cornerPoints,
-              effectiveHeight,
-              effectiveWidth,
-              frameId  // タイムスタンプを追加
-            )
-          )
+          processResult(barcodes, effectiveHeight, effectiveWidth, frameId)
         }
         .addOnFailureListener {
           // 解析失敗時もログを出力
@@ -98,6 +69,46 @@ class BarcodeAnalyzer(formats: List<BarcodeType>, val onComplete: (BarCodeScanne
           imageProxy.close()
         }
     }
+  }
+
+  internal fun processResult(
+    barcodes: List<Barcode>,
+    effectiveHeight: Int,
+    effectiveWidth: Int,
+    frameId: Long
+  ) {
+    if (barcodes.isEmpty()) {
+      PerformanceLogger.logSummary(frameId, detected = false)
+      return
+    }
+    Log.d("SCANNER", "Frame #$frameId: ${barcodes.size}枚のQRコードを検出")
+    barcodes.forEach { barcode ->
+      val raw = barcode.rawValue ?: barcode.rawBytes?.let { String(it) }
+
+      val cornerPoints = barcode.cornerPoints?.let { points ->
+        IntArray(points.size * 2).apply {
+          points.forEachIndexed { index, point ->
+            this[index * 2] = point.x
+            this[index * 2 + 1] = point.y
+          }
+        }.toMutableList()
+      } ?: mutableListOf()
+
+      val extra = BarCodeScannerResultSerializer.parseExtraDate(barcode)
+      onComplete(
+        BarCodeScannerResult(
+          barcode.format,
+          barcode.displayValue,
+          raw,
+          extra,
+          cornerPoints,
+          effectiveHeight,
+          effectiveWidth,
+          frameId
+        )
+      )
+    }
+    PerformanceLogger.logSummary(frameId, detected = true)
   }
 }
 
